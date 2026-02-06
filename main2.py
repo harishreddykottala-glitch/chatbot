@@ -3,7 +3,7 @@ from google import genai
 from google.genai import types
 
 client = genai.Client(
-    api_key="AIzaSyB5UzcM-fntJvFLRdAq1heC3cS9tIA_byE"
+    api_key="Your_API_Key"
 )
 
 app = Flask(__name__)
@@ -29,3 +29,4 @@ def chat():
 
 if __name__ == "__main__":
     app.run(port=5000, debug=False)
+
